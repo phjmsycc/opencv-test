@@ -9,7 +9,9 @@ project(step1)
 # set(SOURCE_FILE src/mono.cpp)
 # set(SOURCE_FILE src/cutout.cpp)
 set(SOURCE_FILE src/circle.cpp)
+
 # set(SOURCE_FILE src/rectangle.cpp)
+# set(SOURCE_FILE src/edge_detection.cpp)
 
 # OpenCVが必要であることを示します。CMakeは、システム内でOpenCVを見つけ出し、それをビルドにリンクします。
 find_package(OpenCV REQUIRED)
